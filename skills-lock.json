@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "ui-ux-master": {
+      "source": "viralcode/openwhale",
+      "sourceType": "github",
+      "skillPath": "skills/ui-ux-master/SKILL.md",
+      "computedHash": "6f19bd2ae70a93a0b902f9fcc181a6bd6ea603092da37812b17ca497ed17f35f"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+<USER_REQUEST>
+Build a complete modern web application called:
+
+"Agentic SOC — Auditable Cyber Investigation Platform"
+
+PROJECT GOAL:
+Create a professional cybersecurity SOC dashboard that demonstrates a multi-agent AI investigation system. The platform investigates security alerts and proves every conclusion using traceable evidence.
+
+IMPORTANT:
+This is a frontend-first hackathon prototype. Do NOT build real offensive cybersecurity functionality. Use realistic simulated data and mock tool responses. The website should visually demonstrate how the system would work.
+
+TECH STACK:
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- Lucide React icons
+- Recharts for charts
+- Component-based architecture
+- Responsive design
+- Dark cybersecurity/SOC theme
+
+DESIGN:
+Create a premium, realistic SOC interface similar to modern enterprise cybersecurity platforms.
+
+Visual style:
+- Dark black/charcoal background
+- Glassmorphism panels
+- Subtle blue/cyan accent colors
+- Green for verified evidence
+- Amber for warnings
+- Red for critical findings
+- Clean typography
+- Thin borders
+- Soft glow effects
+- Professional, not flashy
+- Desktop-first 16:9 layout
+- Responsive for smaller screens
+- Smooth animations, but keep them professional
+
+MAIN NAVIGATION:
+Create a left sidebar with:
+
+1. Overview
+2. Investigations
+3. Alerts
+4. Evidence
+5. Agents
+6. Audit Trail
+7. Replay
+8. Reports
+9. Settings
+
+TOP BAR:
+- Product name: Agentic SOC
+- System status: "All Systems Operational"
+- Active investigation indicator
+- Search
+- Notifications
+- User profile
+
+OVERVIEW DASHBOARD:
+
+Show:
+- Active Alerts
+- Investigations Running
+- High Severity Cases
+- Evidence Collected
+- Cases Awaiting Human Approval
+- Average Trust Score
+
+Create charts for:
+- Alerts over time
+- Investigation outcomes
+- Evidence sources
+- Trust score history
+
+Add a "Live Agent Activity" panel showing simulated events such as:
+
+[22:04:12] Planner Agent created investigation plan
+[22:04:15] SIEM Tool queried au
+<truncated 6416 bytes>
+ Trust score must be explainable.
+8. Tool agents can only use predefined simulated tools.
+9. Do not create real malware, exploits, attack payloads, credential theft, or offensive functionality.
+
+MOCK TOOLS:
+
+Create simulated tools:
+
+- SIEM Log Search
+- EDR Search
+- Hash Lookup
+- Sandbox Summary
+- WHOIS Lookup
+- YARA Scanner
+
+Each tool should return structured mock data.
+
+ARCHITECTURE:
+
+Organize the project cleanly:
+
+src/
+  components/
+  pages/
+  data/
+  types/
+  services/
+  hooks/
+  utils/
+
+Create reusable components for:
+- AgentCard
+- EvidenceTable
+- ClaimCard
+- Timeline
+- TrustScore
+- AlertCard
+- AuditLog
+- ApprovalCard
+- InvestigationHeader
+- StatusBadge
+- JsonViewer
+- ChartCard
+
+QUALITY:
+
+The final website should look like a real enterprise cybersecurity product, not a basic student dashboard.
+
+Prioritize:
+- Strong visual hierarchy
+- Excellent spacing
+- Professional typography
+- Smooth transitions
+- Consistent components
+- Clear information architecture
+- Realistic cybersecurity terminology
+- No unnecessary clutter
+
+FIRST SCREEN:
+The Overview dashboard should immediately communicate:
+
+"Investigate → Challenge → Prove → Audit"
+
+with the current security posture, active investigations, agent activity, evidence coverage, and trust score.
+
+Before finishing:
+- Make sure the application runs with npm install and npm run dev.
+- Fix all TypeScript and runtime errors.
+- Ensure all navigation works.
+- Ensure demo buttons work.
+- Ensure responsive layout.
+- Do not leave placeholder "Lorem ipsum" content.
+- Use realistic mock SOC data throughout.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-26T22:22:53+05:30.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Gemini 3.8 Flash (High). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
